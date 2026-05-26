@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 *::before,
 *::after {
   box-sizing: border-box;
@@ -43,7 +46,7 @@ ol {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif, Verdana;
+  font-family: "Fira Sans Condensed", Verdana, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -202,9 +205,9 @@ ol {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-right: -5px;
 }
 .search-form__textfield {
+  padding: 0;
   appearance: none;
   background-color: rgba(0, 0, 0, 0);
   font-family: "Fira Sans Condensed", Helvetica, sans-serif;
